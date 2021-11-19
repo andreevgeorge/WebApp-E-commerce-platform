@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Container = styled.div`
-  height: 60vh;
+  height: 40vh;
   background-color: #fbedfc;
   display: flex;
   align-items: center;

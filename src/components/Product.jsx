@@ -10,7 +10,7 @@ const Info = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(19, 19, 20, 0.13);
+  background-color: rgba(20, 19, 19, 0.13);
   z-index: 3;
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@ const Circle = styled.div`
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: white;
+  background-color: #ffffff;
   position: absolute;
 `;
 const Image = styled.img`
