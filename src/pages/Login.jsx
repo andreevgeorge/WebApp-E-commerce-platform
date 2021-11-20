@@ -20,7 +20,8 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: white;
-  margin-top:10cm;
+  margin-top:6cm;
+  border-radius:2%;
 `;
 
 const Title = styled.h1`
@@ -66,7 +67,7 @@ const Login = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
+          <Link>FORGOT THE PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
