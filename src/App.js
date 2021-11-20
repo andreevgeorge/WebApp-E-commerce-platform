@@ -4,9 +4,11 @@ import Product from "./pages/Product"
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import Ap from './App'
+import Pay from "./Pay";
 
 const App = () => {
- return <Register/>
+ return <Pay/>
 };
 
 export default App;
