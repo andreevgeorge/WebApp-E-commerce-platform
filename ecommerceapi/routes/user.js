@@ -1,6 +1,6 @@
 const User = require('../models/User')
 const { verifyTokenAndAuthorization, verifyTokenAndAdmin } = require('./verifyToken')
-
+const CryptoJS = require('crypto-js')
 const router = require('express').Router()
 
 //UPDATE
